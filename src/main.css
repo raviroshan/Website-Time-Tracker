@@ -1,0 +1,21 @@
+body {
+  width: 200px;
+}
+
+body .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body .container .panel {
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+body .container .panel #totalTime {
+  font-weight: bold;
+}
+
+body .container .panel button {
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+body {
+    width: 200px;
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+
+        .panel {
+            margin-bottom: 1px;
+            text-align: center;
+
+            #totalTime {
+                font-weight: bold;
+            }
+
+            button {
+                margin-top: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href='bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Website Time Tracker</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Website Time Tracker</h3>
+			</div>
+			<div class="panel-body">
+				<div>
+					You spent :
+					<span id='totalTime'>Loading...!!</span>
+					<span id='lastReset' class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="hh:mm:ss format" aria-hidden="true"></span>
+				</div>
+				<div>
+					on facebook
+				</div>
+				<button type="button" class="btn btn-danger" id='reset'>
+					<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+					Reset
+				 </button>
+			</div>
+		</div>
+		<script src="popup.js"></script>
+</body>
+
+</html>
